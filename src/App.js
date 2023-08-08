@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-    apple
+    apple apple
     <BrowserRouter>
       <Routes>
         <Route index element={DEFAULT_ROUTE_PAGE} />
