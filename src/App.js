@@ -17,6 +17,8 @@ function App() {
     : (DEFAULT_ROUTE_PAGE = <Home />);
 
   return (
+    <>
+    apple
     <BrowserRouter>
       <Routes>
         <Route index element={DEFAULT_ROUTE_PAGE} />
@@ -28,6 +30,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
+    </>
   );
 }
 
